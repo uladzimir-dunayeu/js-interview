@@ -20,3 +20,5 @@ var expect = function(val) {
 
 console.log(expect(5).toBe(5));
 console.log(expect(5).toBe(10));
+console.log(expect(5).notToBe(10));
+console.log(expect(5).notToBe(5));
