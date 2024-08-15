@@ -23,7 +23,7 @@ const obj2 = foo.call({x: 30});
 let y = obj2.bar
 let x = obj2.baz
 y(); //30
-x(); //
+x(); //undefined
 
-obj2.bar();
-obj2.baz();
+obj2.bar(); //30
+obj2.baz(); //20
