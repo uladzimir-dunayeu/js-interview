@@ -5,7 +5,9 @@
 // // console.log('b out function', b);
 // function x() {
 //     // Сюда всплывёт b
-//     var b = 2;
+//     if (true) {
+//         var b = 2;
+//     }
 // }
 //
 // var c = 3;
@@ -15,6 +17,7 @@
 // }
 
 // ************* 2 **************
+// HOISTING
 let a = "hello";
 
 if (true) {
