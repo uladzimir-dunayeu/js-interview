@@ -145,28 +145,3 @@
 // Math.universalMax(1, 4) // 4
 // Math.universalMax([11, 33], 24, [2, -3, 99]) // 9
 // Math.universalMax([43], [44], [103]) // 103
-
-//i = 5
-//
-// for (var i = 0; i < 5; i++) {
-//     setTimeout(() => {
-//         // Q: What would be the output and why?
-//         console.log('[Closure]', i + i + '' + i)
-//     }, i * 10);
-// }
-
-
-var o = {
-    x: 10,
-    foo() {
-        for (var i = 0; i< 10; i++) {
-            setTimeout(() => {
-                (function(count) {
-                    console.log(count);
-                })(i)
-            }, 0)
-        }
-    }
-}
-
-o.foo();
