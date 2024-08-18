@@ -21,4 +21,4 @@ function groupStringByChars(str) {
     return newStr
 }
 
-console.log(groupStringByChars('AVVVBBBVVXDHJFFFFDDDDDDHAAAAJJJDDSLSSSDDDD'));
+console.log(groupStringByChars('AVVVBBBVVXDHJFFFFDDDDDDHAAAAJJJDDSLSSSD'));
